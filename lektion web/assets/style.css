@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    position: absolute;
+    top: 15px;
+    height: 180px;
+    float: right;
+}
+
+h2 {
+    text-align: center;
+}

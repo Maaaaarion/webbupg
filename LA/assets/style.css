@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+/* Stil för navigerings meny */
+
+.topnav {
+    overflow: hidden;
+    background-color: #EAECF0;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center #54595D;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: 10px;
+}
+img {
+    width: 202px;
+    height: 41px;
+}
+
+/* byta färg on hover */
+.topnav a:hover {
+    background-color: #EAECF0;
+    color: black;
+}
+
+
+
+.sidebar-left:after {
+    content: "";
+    position: absolute;
+    right: 1;
+    bottom: 0;
+    top: 45px;
+    background: blue;
+    width: 12%;
+    z-index: 4;
+}
+
+.sidebar-right:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 45px;
+    background: blue;
+    width: 12%;
+    z-index: 4;
+}
+h1 {
+    text-align: center;
+}
